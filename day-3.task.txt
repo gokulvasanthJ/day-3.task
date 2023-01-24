@@ -1,0 +1,102 @@
+Json iteration for in loop:
+__________________________
+var student={
+  "name":"gokul vasanth",
+  "age":"21",
+  "adress":"Nagapattinam",
+  "mobile":"7639495042",
+  "email":"gokul27mech@gmail.com"
+};
+console.log(student);
+
+for(var a in student){
+
+console.log(student[a])
+}
+
+student.gender="male";
+student.education="Bacholor's degree;
+
+console.log(student)
+
+________________________________________________________________________________________________
+RESUME Buiding by JSON:
+_______________________
+
+//JAON 0bject
+var RESUME={
+  "Name":"Gokul vasanth J",
+  "Age":"21",
+  "Adress":"Nagapattinam",
+  "Mobile":"7639495042",
+  "E-mail":"gokul27mech@gmail.com",
+  "Softwareskills":["AUTO CAD",
+                    "CATIA",
+                    "SOLID WORKS",
+                    "GD&T",
+                    "PPM",
+                    "ANSYS"]
+  Addtional skills="type writing",
+                     "MS office",
+                     "EXCELL"]
+  "Work Experience":"Fresher"
+  "Extra Curriculam Activities":"sports"
+  "Personal Profile":
+  "Father's name":"Jayakumar",
+  "Gender":"Male",
+  "Marital Status":"Single",
+  "Nationality":"INDIAN",
+  "Religion":"Hindu"
+  
+  
+};
+console.log(RESUME);
+________________________________________________________________________________________
+________________________________________________________________________________________
+                Difference between DOCUMENTS , SCREEN  and WINDOWS OBJECTS
+
+                                                                          WINDOWS
+Definition:
+     The windows object is a built-in object in JavaScript that allows developers to 
+access and manipulate the Windows operating system. It provides access to system 
+information, such as the user's home directory, the currently logged -in user, system
+settings, and the list of running processes. Additionally, it can be used to access
+and manipulate the windows registry, create new processes, and control system-level events.
+
+                                                                      DOCUMENTS
+Definition:
+     When a web page is loaded, the browser creates a Document Object Mode for the page.
+The document object represents the whole HTML document as a tree of Objects
+(HTML, HEAD, BOIDY, and other HTML tags). It is the root element that represents
+the HTML document.
+
+
+   DIFFERENCE BETWEEN DOCUMENT, SCREEN AND WINDOWS OBJECT:
+________________________________________________________
+
+Windows and Document objects are not the same:
+
+   ⦁The window is the first thing that gets loaded into the browser.
+   ⦁This window object has the majority of the properties like length, 
+innerwidth, inner height, name, if it has been closed, its parents, and more.
+
+   ⦁The document object is your HTML, aspx, php, or other document that will be
+loaded that will be loaded into the browser.
+   ⦁the  document actually gets loaded inside the window object and has properties
+available to it like title, URL, cookie, etc...
+   ⦁The really this doing means That  means if you want to access a property for the
+window it is window. property, if it is document it is window. document property which 
+is also available in short as document property.
+   ⦁The window object also has a screen object  with properties descriving the physical display.
+   ⦁Screen properties width and height are the full screen.
+   ⦁Screen properties availWidth and availHeigt omit the toolbar.
+  ⦁The portion of a screen displaying the rendered document is the 
+viewport in javascript, which is potentially confusing because we call an application's portion
+of the screen a window when talking about interactions with the operating system.
+   ⦁The get Bounding Client React() method of any document element with return an object with 
+top, left, bottom, and right properties describing the location of the element in the viewport.
+
+
+
+
+
